@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: chat
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:49000/eureka
+  instance:
+    prefer-ip-address: true
+server:
+  port: 49002
